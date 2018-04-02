@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Meta -->
+    <meta name="description" content="Arise Global - Web Portal">
+    <meta name="author" content="Arise Global">
+
+    <title>Arise Global - Dashboard</title>
+
+    <!-- vendor css -->
+    <link href="../../lib/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="../../lib/Ionicons/css/ionicons.css" rel="stylesheet">
+    <link href="../../lib/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
+    <link href="../../lib/jquery-toggles/toggles-full.css" rel="stylesheet">
+
+    <!-- UI CSS -->
+    <link rel="stylesheet" href="../../css/ui.css">
+  </head>
+
+  <body>
+
+    <div class="ui-header">
+      <div class="ui-header-left">
+        <a id="naviconLeft" href="" class="ui-navicon d-none d-lg-flex"><i class="icon ion-navicon-round"></i></a>
+        <a id="naviconLeftMobile" href="" class="ui-navicon d-lg-none"><i class="icon ion-navicon-round"></i></a>
+        <a href="index.html" class="ui-logo">arise global</a>
+      </div><!-- ui-header-left -->
+
+      <div class="ui-header-right">
+        <div class="dropdown dropdown-notification">
+          <a href="" class="nav-link pd-x-7 pos-relative" data-toggle="dropdown">
+            <i class="icon ion-ios-bell-outline tx-24"></i>
+            <!-- start: if statement -->
+            <span class="square-8 bg-danger pos-absolute t-15 r-0 rounded-circle"></span>
+            <!-- end: if statement -->
+          </a>
+          <div class="dropdown-menu wd-300 pd-0-force">
+            <div class="dropdown-menu-header">
+              <label>Notifications</label>
+              <a href="">Mark All as Read</a>
+            </div><!-- d-flex -->
+
+            <div class="media-list">
+              <!-- loop starts here -->
+              <a href="" class="media-list-link read">
+                <div class="media pd-x-20 pd-y-15">
+                  <img src="../../img/notification.png" class="wd-40 rounded-circle" alt="">
+                  <div class="media-body">
+                    <p class="tx-13 mg-b-0"><strong class="tx-medium">Company ABC</strong> Available cliks are very low</p>
+                    <span class="tx-12">October 03, 2017 8:45am</span>
+                  </div>
+                </div><!-- media -->
+              </a>
+              <!-- loop ends here -->
+              <a href="" class="media-list-link read">
+                <div class="media pd-x-20 pd-y-15">
+                  <img src="../../img/notification.png" class="wd-40 rounded-circle" alt="">
+                  <div class="media-body">
+                    <p class="tx-13 mg-b-0"><strong class="tx-medium">Mellisa Brown</strong> Need to change the probe<strong class="tx-medium"> Device ID: #65456721</strong></p>
+                    <span class="tx-12">October 02, 2017 12:44am</span>
+                  </div>
+                </div><!-- media -->
+              </a>
+              <a href="" class="media-list-link read">
+                <div class="media pd-x-20 pd-y-15">
+                  <img src="../../img/notification.png" class="wd-40 rounded-circle" alt="">
+                  <div class="media-body">
+                    <p class="tx-13 mg-b-0">20+ new items added in inventory <strong class="tx-medium">Product Management</strong></p>
+                    <span class="tx-12">October 01, 2017 10:20pm</span>
+                  </div>
+                </div><!-- media -->
+              </a>
+              <div class="media-list-footer">
+                <a href="" class="tx-12"><i class="fa fa-angle-down mg-r-5"></i> Show All Notifications</a>
+              </div>
+            </div><!-- media-list -->
+          </div><!-- dropdown-menu -->
+        </div><!-- dropdown -->
+        <div class="dropdown dropdown-profile">
+          <a href="" class="nav-link nav-link-profile" data-toggle="dropdown">
+            <img src="../../img/blank-avatar.png" class="wd-32 rounded-circle" alt="">
+            <span class="logged-name"><span class="hidden-xs-down">John Doe</span> <i class="fa fa-angle-down mg-l-3"></i></span>
+          </a>
+          <div class="dropdown-menu wd-200">
+            <ul class="list-unstyled user-profile-nav">
+              <li><a href=""><i class="icon ion-power"></i> Sign Out</a></li>
+            </ul>
+          </div><!-- dropdown-menu -->
+        </div><!-- dropdown -->
+      </div><!-- ui-header-right -->
+    </div><!-- ui-header -->
+
+    <div class="ui-sideleft">
+
+      <div class="tab-content">
+        <div id="mainMenu" class="tab-pane active">
+          <ul class="nav ui-sideleft-menu">
+            <li class="nav-item">
+              <a href="dashboard.html" class="nav-link">
+                <i class="icon ion-ios-home-outline"></i>
+                <span>Dashboard</span>
+              </a>
+            </li><!-- nav-item -->
+            <li class="nav-item">
+              <a href="" class="nav-link with-sub">
+                <i class="icon ion-ios-people-outline"></i>
+                <span>User Management</span>
+              </a>
+              <ul class="nav-sub">
+                <li class="nav-item"><a href="user_password_reset.html" class="nav-link">Reset Password</a></li>
+              </ul>
+            </li><!-- nav-item -->
+            <li class="nav-item">
+              <a href="" class="nav-link with-sub active show-sub">
+                <i class="icon ion-ios-cloud-upload-outline"></i>
+                <span>Data Management</span>
+              </a>
+              <ul class="nav-sub">
+                <li class="nav-item"><a href="data_session.html" class="nav-link active">Session PDF</a></li>
+              </ul>
+            </li><!-- nav-item -->
+            <li class="nav-item">
+              <a href="" class="nav-link with-sub">
+                <i class="icon ion-ios-gear-outline"></i>
+                <span>Settings</span>
+              </a>
+              <ul class="nav-sub">
+                <li class="nav-item"><a href="settings_portal_menu.html" class="nav-link">Portal Menu</a></li>
+              </ul>
+            </li><!-- nav-item -->    
+          </ul>
+        </div><!-- #mainMenu -->
+      </div><!-- tab-content -->
+    </div><!-- ui-sideleft -->
+
+    <div class="ui-pagetitle">
+      <h5 class="ui-title">Blank Page</h5>
+    </div><!-- ui-pagetitle -->
+
+    <div class="ui-mainpanel">
+      <div class="ui-pagebody">
+
+        <!-- your content goes here -->
+
+      </div><!-- ui-pagebody -->
+    </div><!-- ui-mainpanel -->
+
+    <script src="../../lib/jquery/jquery.js"></script>
+    <script src="../../lib/popper.js/popper.js"></script>
+    <script src="../../lib/bootstrap/bootstrap.js"></script>
+    <script src="../../lib/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
+    <script src="../../lib/jquery-toggles/toggles.min.js"></script>
+
+    <script src="../../js/ui.js"></script>
+
+  </body>
+</html>

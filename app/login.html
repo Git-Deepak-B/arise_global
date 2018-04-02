@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Meta -->
+    <meta name="description" content="Premium Quality and Responsive UI for Dashboard.">
+    <meta name="author" content="ThemePixels">
+
+    <title>Arise Global - Dashboard</title>
+
+    <!-- vendor css -->
+    <link href="../lib/font-awesome/css/font-awesome.css" rel="stylesheet">
+    <link href="../lib/Ionicons/css/ionicons.css" rel="stylesheet">
+    <link href="../lib/perfect-scrollbar/css/perfect-scrollbar.css" rel="stylesheet">
+
+    <!-- UI CSS -->
+    <link rel="stylesheet" href="../css/ui.css">
+  </head>
+
+  <body>
+
+    <div class="ui-signin-wrapper">
+      <div class="ui-signin-box">
+        <div class="row no-gutters">
+          <div class="col-lg-5">
+            <div>
+              <h2>Arise Global</h2>
+              <p>A web portal for Arise Global to manage</p>
+              <p>Donec quam felis, ultricies nec, pellentesque eu, pretium quis, sem. Nulla consequat massa quis enim. Donec pede justo, fringilla vel, aliquet nec, vulputate.</p>
+
+              <hr>
+              <p>Don't have an account? <br> <a href="#">Sign up Now</a></p>
+            </div>
+          </div>
+          <div class="col-lg-7">
+            <h5 class="tx-gray-800 mg-b-25">Signin to Your Account</h5>
+
+            <div class="form-group">
+              <label class="form-control-label">Email:</label>
+              <input id="username" type="email" name="email" class="form-control" placeholder="Enter your email address">
+            </div><!-- form-group -->
+
+            <div class="form-group">
+              <label class="form-control-label">Password:</label>
+              <input id="password" type="password" name="password" class="form-control" placeholder="Enter your password">
+            </div><!-- form-group -->
+
+            <div class="form-group mg-b-20"><a href="">Reset password</a></div>
+
+            <button id="signin" type="submit" class="btn btn-block">Sign In</button>
+          </div><!-- col-7 -->
+        </div><!-- row -->
+      </div><!-- signin-box -->
+    </div><!-- ui-signin-wrapper -->
+
+    <script src="../lib/jquery/jquery.js"></script>
+    <script src="../lib/popper.js/popper.js"></script>
+    <script src="../lib/bootstrap/bootstrap.js"></script>
+    <script src="../lib/perfect-scrollbar/js/perfect-scrollbar.jquery.js"></script>
+
+    <script src="../js/ui.js"></script>
+
+    <script>
+      $('#signin').click(function(){
+        if($('#password').val() == '1234') {
+          
+          /* Talcyon Admin */
+          if($('#username').val() == 'talcyonadmin') {
+            window.location.replace("talcyon_admin/dashboard.html");
+          }
+
+          /* Customer Admin */
+          if($('#username').val() == 'customeradmin') {
+            window.location.replace("customer_admin/dashboard.html");
+          }
+
+          /* Customer Analyst */
+          if($('#username').val() == 'customeranalyst') {
+            window.location.replace("customer_analyst/dashboard.html");
+          }
+
+          /* Customer Inspector */
+          if($('#username').val() == 'customerinspector') {
+            window.location.replace("customer_inspector/dashboard.html");
+          }
+
+          /* End User */
+          if($('#username').val() == 'enduser') {
+            window.location.replace("end_user/dashboard.html");
+          }
+        }        
+      });
+    </script>
+  </body>
+</html>
