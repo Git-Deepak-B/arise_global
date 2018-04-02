@@ -1,1 +1,1 @@
-<?php include('/app/login.html'); ?>
+<?php header('Location: /directory/mypage.php'); ?>
